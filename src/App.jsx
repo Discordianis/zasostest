@@ -17,7 +17,7 @@ export default function App() {
     <Header />
         <BrowserRouter>
             <Routes>
-                <Route path={'/'} exact element={
+                <Route path={'/zasostest/'} exact element={
                     <>
                     <Tabs active={tab} onChange={current => setTab(current)} />
                     {tab === 'main' && <StoryParts />}
@@ -26,8 +26,8 @@ export default function App() {
                     {tab === 'clicker' && <Clicker />}
                     </>
                 } />
-                <Route path={'/login'} Component={Login} />
-                <Route path={'/profile'} Component={Profile} />
+                <Route path={'/zasostest/login'} Component={Login} />
+                <Route path={'/zasostest/profile'} Component={Profile} />
             </Routes>
         </BrowserRouter>
 

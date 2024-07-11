@@ -6,7 +6,7 @@ let profileAvatar = avatar;
 export default function ProfileButton(){
     return(
         <div className={'profile_button'}>
-            <a href={'/profile'}>
+            <a href={'/zasostest/profile'}>
                 <img src={profileAvatar} alt={'profile avatar'}/>
                 <p>{nickname}</p>
             </a>

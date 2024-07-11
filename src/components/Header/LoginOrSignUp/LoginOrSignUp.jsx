@@ -12,7 +12,7 @@ export default function LoginOrSignUp(){
                 </>
                  :
                 <div className={'login_button'}>
-                    <a href={'/login'}>
+                    <a href={'/zasostest/login'}>
                         <Button>Войти</Button>
                     </a>
                 </div>
